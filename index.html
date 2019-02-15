@@ -16,10 +16,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>ApresentaçãoMain</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=50248253" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=460125462" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=216593516"/>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=156612334"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -158,18 +158,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    </div>
    <div class="verticalspacer" data-offset-top="3327" data-content-above-spacer="3327" data-content-below-spacer="61"></div>
    <div class="browser_width grpelem" id="u310-bw">
-    <div id="u310"><!-- column -->
+    <div id="u310"><!-- group -->
      <div class="clearfix" id="u310_align_to_page">
-      <div class="clearfix colelem" id="u312-4"><!-- content -->
+      <div class="clearfix grpelem" id="u312-4"><!-- content -->
        <p>obrigado pela atenção</p>
-      </div>
-      <div class="clearfix colelem" id="u311-14"><!-- content -->
-       <p>Leonardo Vieira Alvarez - 00098411</p>
-       <p>Guilherme Martins</p>
-       <p>Yago Visokas</p>
-       <p>Bruno</p>
-       <p>Vinicius Furukawa</p>
-       <p>Ryan</p>
       </div>
      </div>
     </div>
@@ -194,8 +186,8 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u387').registerBackgroundPositionScrollEffect([{"in":[-Infinity,108.95],"speed":[0,0]},{"in":[108.95,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u925').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1926.75],"speed":[0,0]},{"in":[1926.75,Infinity],"speed":[0,0]}]);/* scroll effect */
+$('#u387').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,108.95]},{"speed":[0,0],"in":[108.95,Infinity]}]);/* scroll effect */
+$('#u925').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,1926.75]},{"speed":[0,0],"in":[1926.75,Infinity]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};

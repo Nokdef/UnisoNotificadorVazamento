@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hehe.com" resolutions="1x" timestamp="1550179114806">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hehe.com" resolutions="1x" timestamp="1550192858787">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="50248253" ref="index"/>
-    <file name="iefonts_index.css" crc="216593516" ref="index"/>
+    <file name="index.css" crc="460125462" ref="index"/>
+    <file name="iefonts_index.css" crc="156612334" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -49,5 +49,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="35205662" seo="true" mt="1550179114159" redirect="true"/>
+  <file name="index.html" crc="532687972" seo="true" mt="1550192850074" redirect="true"/>
 </manifest>
